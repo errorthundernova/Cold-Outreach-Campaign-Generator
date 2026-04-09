@@ -1,0 +1,17 @@
+# Virtual environment
+venv/
+
+# Python cache — generated in config/, generators/, templates/
+__pycache__/
+*.pyc
+
+# Generated output files — keep the folder via .gitkeep, not the contents
+output/*.md
+output/*.xlsx
+
+# Real prospect data — keep only the sample file
+input/*.csv
+!input/sample_prospects.csv
+
+# Excel temp file created when outreach_tracker.xlsx is open
+~$outreach_tracker.xlsx
